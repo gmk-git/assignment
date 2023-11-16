@@ -1,0 +1,70 @@
+ 882  2023-11-15 15:24:12 docker pull iamankush94/sre_assignment:latest
+  883  2023-11-15 15:26:38 docker run -itd --name iamankush iamankush94/sre_assignment:latest
+  884  2023-11-15 15:27:25 docker ps
+  885  2023-11-15 15:27:33 docker ps -a
+  886  2023-11-15 15:28:57 docker logs e89cd9353eb4
+  887  2023-11-15 15:37:11 docker history iamankush iamankush94/sre_assignment:latest
+  888  2023-11-15 15:37:33 docker images
+  889  2023-11-15 15:37:43 docker histroy 39b867d40476
+  890  2023-11-15 15:38:09 podman history 39b867d40476
+  891  2023-11-15 16:21:06 cd
+  892  2023-11-15 16:23:02 cd /home/krishna/Documents/Assigenment/
+  893  2023-11-15 16:23:05 ls -ltr
+  894  2023-11-15 16:23:18 docker run -itd --name iamankush01 iamankush94/sre_assignment:latest
+  895  2023-11-15 16:23:27 docker ps
+  896  2023-11-15 17:32:55 podman history 39b867d40476
+  897  2023-11-15 18:15:54 docker images
+  898  2023-11-15 18:23:22 docker run -itd --name iamankush -v /path/to/generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  899  2023-11-15 18:23:58 pwd
+  900  2023-11-15 18:25:39 ls -l
+  901  2023-11-15 18:26:41 docker run -itd --name iamankush -v /home/krishna/Documents/Assigenment/generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  902  2023-11-15 18:26:58 docker run -itd --name iamankush02 -v /home/krishna/Documents/Assigenment/generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  903  2023-11-15 18:27:06 docker ps
+  904  2023-11-15 18:27:35 ls -ltr
+  905  2023-11-15 18:28:19 docker ps -a
+  906  2023-11-15 18:28:32 docker logs 8d4a75408a16
+  907  2023-11-15 18:36:31 chmod -R 755 /home/krishna/Documents/Assigenment
+  908  2023-11-15 18:37:02 docker run -itd --name iamankush02 -u node -v /home/krishna/Documents/Assigenment/generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  909  2023-11-15 18:37:13 docker run -itd --name iamankush03 -u node -v /home/krishna/Documents/Assigenment/generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  910  2023-11-15 18:37:18 docker ps
+  911  2023-11-15 18:37:26 docker ps -a
+  912  2023-11-15 18:37:34 docker logs 779b03b327b9
+  913  2023-11-15 19:42:32 docker run -itd --name iamankush03 -u node -v /home/krishna/Documents/Assigenment/generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  914  2023-11-15 19:43:11 cp generated.csv /tmp
+  915  2023-11-15 19:43:12 cd
+  916  2023-11-15 19:43:17 cd /tmp
+  917  2023-11-15 19:43:19 ls -ltr
+  918  2023-11-15 19:43:35 docker run -itd --name iamankush04 -u node -v generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  919  2023-11-15 19:43:40 docker ps
+  920  2023-11-15 19:43:47 ls -ltr
+  921  2023-11-15 19:44:02 chmod 777 generated.csv 
+  922  2023-11-15 19:44:10 docker run -itd --name iamankush05 -u node -v generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  923  2023-11-15 19:44:17 docker ps
+  924  2023-11-15 19:44:48 docker run -itd --name iamankush06  -v generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  925  2023-11-15 19:44:53 docker ps
+  926  2023-11-15 19:45:08 docker ps -a
+  927  2023-11-15 19:45:17 docker logs e41a8909ab74
+  928  2023-11-15 19:45:43 docker logs db59ef9aa278
+  929  2023-11-15 19:47:01 ls -ltr
+  930  2023-11-15 19:47:12 chmod 755 generated.csv 
+  931  2023-11-15 19:47:25 docker run -itd --name iamankush07  -v generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  932  2023-11-15 19:47:31 docker ps
+  933  2023-11-15 19:47:35 docker ps -a
+  934  2023-11-15 19:47:47 docker logs 3a045030fc84
+  935  2023-11-15 19:48:21 ls -ltr
+  936  2023-11-15 19:48:34 mv generated.csv ~
+  937  2023-11-15 19:48:35 cd
+  938  2023-11-15 19:48:37 ls -ltr
+  939  2023-11-15 19:48:54 docker run -itd --name iamankush08  -v /root/generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  940  2023-11-15 19:49:03 docker ps -a
+  941  2023-11-15 19:49:13 docker logs e3cb0a217e7e
+  942  2023-11-15 19:49:28 docker ps
+  943  2023-11-15 20:07:22 docker exec -it e3cb0a217e7e /bin/bash
+  944  2023-11-15 20:07:31 docker ps
+  945  2023-11-15 20:07:37 docker exec -it e3cb0a217e7e /bin/sh
+  946  2023-11-15 20:10:08 docker stop e3cb0a217e7e
+  947  2023-11-15 20:10:32 docker rm e3cb0a217e7e
+  948  2023-11-15 20:18:15 docker run -itd --name iamankush08 -p 9393:7177 -e UI_COLOR="#0048CD" -v /root/generated.csv:/home/node/app/csv/generated.csv iamankush94/sre_assignment:latest
+  949  2023-11-15 20:18:27 docker ps
+  950  2023-11-15 21:00:50 history 
+
